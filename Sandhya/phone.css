@@ -1,94 +1,74 @@
-/* 
-#navbar{
-    flex-direction: column;
-
-}
-#navbar ul li a{
-    font-size: 1rem;
-    padding: 0 7px;
-    padding-bottom: 8px;
-}
-
-#home{
+#home {
     height: 400px;
     flex-direction: column;
 }
-#home::before{
+
+#home::before {
     height: 400px;
-  
+
 }
-.item{
-    padding-left: 28px;
-    padding-top:10px ;
-    padding-bottom: 11px;
-    padding-right: 12px;
-}
-home p{
+
+home p {
     font-size: 15px;
     padding: 3px 68px;
 
 
 }
 
-
-#services{
-flex-direction: column;
-
-}
-
-
-#services .box{
+#navbar {
+    flex-direction: column;
 
 }
 
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0 7px;
+    padding-bottom: 8px;
+}
 
 
+.item {
+    padding-left: 28px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-right: 12px;
+}
+
+#services {
+    flex-direction: column;
+
+}
+
+/* #services .box{
+
+} */
 
 
-
-
-
-#clients{
+#clients {
     flex-wrap: wrap;
 
 
 }
 
-#clients img{
+#clients img {
     width: 66px;
     padding: 2px 4px;
     height: auto;
-    
+
 }
 
-
-
-
-  
-
-
-#socialimg{
+#socialimg {
     display: flex;
 
     flex-direction: column;
 }
 
-
-
-
-.h-primary{
+.h-primary {
     font-size: 26px;
 
 }
-.btn{
+
+.btn {
     font-size: 12px;
     padding: 4px 4xp;
 }
-
-
-
-
-
-
-
- */
