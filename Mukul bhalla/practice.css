@@ -23,6 +23,15 @@
 
 }
 
+@media (max-width:650px) {
+    .mySlides {
+        width: 100%;
+    }
+
+}
+
+
+
 @media (max-width:420px) {
     .mySlides {
         width: 100%;
