@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BridgeBuilders</title>
+  <link rel="" href="nav.html">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <link rel="icon" href="images/BridgeBuilders Logo.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="nav">
+    <nav class="navbar">
+      <ul>
+        <li class="pt"><img class="logo" src="images/BridgeBuilders Logo.png" alt="logo"></li>
+        <li><a class="nav-menu " href="">Home</a></li>
+        <li><a class=" nav-menu" href="#about">About</a></li>
+        <li><a class=" nav-menu" href="directory.html">Directory</a></li>
+        <li><a class=" nav-menu" href="#volunteer">Volunteer</a></li>
+        <li><a class="nav-menu " href="" onclick="openForm()">Fundraising</a></li>
+        <li><a class=" nav-menu" href="#contact-me">Contact Us</a></li>
+        <li><input class="search" type="text" name="search" id="search" placeholder="Search"></li>
+        <li class="pt"><button class="open-button" onclick="openForm()">Make a donation</button></li>
+      </ul>
+    </nav>
+    <div class="quote">
+      <h1>The best way to find yourself is to lose yourself in the sevice of others.</h1>
+      <h3>- Mahatma Gandhi</h3>
+      <br>
+      <button class="program-btn" onclick="openprgm()">Ongoing Programs</button>
+    </div>
+  </div>
+  <!-- The form -->
+  <div class="form-popup" id="myForm">
+    <form action="mailto:mr8566@srmist.edu.in" class="form-container">
+      <h1>Login</h1>
+
+      <label class="email" for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <br>
+      <label class="password" for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <button type="submit" class="btn">Submit</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+  <!--table>
+       <tr>
+        <td><img class="up photo" src="images/Promptify logo.jpeg"></td>
+        <td class="up text">
+            <h4>Upcoming Program</h4>
+            <h2>Donate vitamin B12 supply program</h2>
+            <p>When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        </td>
+        </tr>
+        <tr>
+        <td>
+            <button class="donate-now" onclick="openForm()">Donate</button>
+        </td>
+        </tr>
+       </tr> 
+    </table-->
+  <div class="up">
+    <div><img class="up_photo"
+        src="https://images.unsplash.com/photo-1488265333142-353a12931ee9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8OTEwfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+    </div>
+    <div class="up_content">
+      <h4>Upcoming Program</h4>
+      <h2>Donate vitamin B12 supply program</h2>
+      <p>When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+      <br>
+      <button class="donate-now" onclick="openForm()">Donate</button>
+      <button class="programs">View
+          Programs</button>
+    </div>
+  </div>
+  <div class="about" id="about">
+    <!--table>
+        <tr> 
+            <td>
+              <h4>About Us</h4>
+              <h2>Lorem ipsum dolor sit amet. Eos quisquam molestiae At quam culpa quo culpa quod eum alias delectus ut quia voluptate. </h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed felis ornare nisi facilisis semper. Pellentesque elementum, dui non mattis pulvinar, augue nulla venenatis nibh, at molestie massa metus ac metus. Phasellus in lorem condimentum, molestie dui a, consectetur augue. Etiam dui erat, lacinia sit amet odio sit amet, egestas aliquam sem. Phasellus commodo interdum iaculis. Donec tempus arcu augue. Curabitur cursus a nisl quis finibus. Proin fringilla nisi non leo consectetur, at molestie diam pulvinar.</p>
+            </td>
+                <td>
+                    <img src="https://preview.colorlib.com/theme/charitee/assets/img/gallery/class-img3.jpg" alt="image">
+                </td>
+            </tr>
+    </table-->
+    <div id="about-content" class="about-content">
+      <h4>About Us</h4>
+      <h2>Empowering communities through collaborative action and sustainable solutions. </h2>
+      <p>Our website is a one –stop platform for NGOs to connect with each other and access resources to achieve their
+        mission.​
+
+        A platform to streamline and simplify the non-profit sector by providing a centralized hub for organizations to
+        network fundraise and collaborate.​
+
+        Through our website you get access to a directory of organizations, forum for networking ,tools for management
+        and volunteers.​
+
+        ​</p>
+      <br>
+      <button class="about_btn">Discover More</button>
+    </div>
+    <div><img class="about_img" src="https://preview.colorlib.com/theme/charitee/assets/img/gallery/class-img3.jpg"
+        alt="image">
+    </div>
+
+  </div>
+  <div class="header_services"
+    style="background-image:url(https://preview.colorlib.com/theme/charitee/assets/img/gallery/section-bg1.jpg);">
+    <div class="heading">
+      <span>Helping Today</span>
+      <h1><strong>How we help people</h1>
+    </div>
+    <div class="services"
+      style="background-image:url(https://preview.colorlib.com/theme/charitee/assets/img/gallery/section-bg1.jpg);">
+
+      <div class=" content">
+        <img class="icons" src="images/networking.png" alt="network icon">
+        <h2>Network of NGOs</h2>
+        <p>dio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to
+          support.</p>
+      </div>
+      <div class="content">
+        <img class="icons" src="images/fundraising.png" alt="icon">
+        <h2>Fundraising</h2>
+        <p>dio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to
+          support.</p>
+      </div>
+      <div class="content">
+        <img class="icons" src="images/education icon.png" alt="icon">
+        <h2>Education</h2>
+        <p>Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to
+          support.</p>
+      </div>
+    </div>
+  </div>
+  <div class="volunteer" id="volunteer">
+    <h1>Become a volunteer</h1>
+    <p>Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to
+      support.</p>
+    <br>
+    <button class="volunteer-btn" onclick="openForm()">JOIN US</button>
+  </div>
+  <div class="bottom-container">
+    <div class="contact-me" id="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.Lorem ipsum
+        dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.Lorem ipsum dolor sit
+        amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.Lorem ipsum dolor sit amet, in
+        quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <br>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+    <br>
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Gmail</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Github</a>
+    <p class="contact-me">Copyright ©2023 All rights reserved |© BridgeBuilders.</p>
+  </div>
+</body>
+
+</html>
